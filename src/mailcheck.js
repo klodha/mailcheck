@@ -22,14 +22,14 @@ var Mailcheck = {
     'aim.com', 'rogers.com', 'verizon.net',
     'rocketmail.com', 'google.com', 'optonline.net',
     'sbcglobal.net', 'aol.com', 'me.com', 'btinternet.com',
-    'charter.net', 'shaw.ca'],
+    'charter.net', 'shaw.ca', 'in.com', 'live.com', 'outlook.com', 'yahoo.com', 'yahoo.co.in', 'rediffmail.com', 'rediff.com'],
 
   defaultSecondLevelDomains: ["yahoo", "hotmail", "mail", "live", "outlook", "gmx"],
 
   defaultTopLevelDomains: ["com", "com.au", "com.tw", "ca", "co.nz", "co.uk", "de",
     "fr", "it", "ru", "net", "org", "edu", "gov", "jp", "nl", "kr", "se", "eu",
     "ie", "co.il", "us", "at", "be", "dk", "hk", "es", "gr", "ch", "no", "cz",
-    "in", "net", "net.au", "info", "biz", "mil", "co.jp", "sg", "hu", "uk"],
+    "in", "net", "net.au", "info", "biz", "mil", "co.jp", "sg", "hu", "uk", 'in', '.co.in', '.india'],
 
   run: function(opts) {
     opts.domains = opts.domains || Mailcheck.defaultDomains;
